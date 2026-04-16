@@ -1,0 +1,132 @@
+.header-style{
+    font-size:30px;
+    font-family:times;
+    font-style:italic;
+    color:silver;
+    text-align:center;
+    text-shadow: 0 0 10px silver;   /* yellow glow */
+    
+}
+.nav-fmt {
+  display: flex;
+  gap: 45px;
+  background-color: #2b2b2b;   /* dark grey */
+  padding: 15px 25px;
+  list-style: none;
+  border-radius: 6px;
+  width: fit-content;       /* shrink to fit the links */
+  margin: 0 auto;              /* centers the whole bar */
+}
+
+.nav-fmt a {
+  font-family:times;
+  font-style:italic;
+  color: silver;
+  text-decoration: none;
+  font-size: 25px;
+  padding:3px 10px;
+  border-radius:6px;
+  transition: color 0.2s ease;
+}
+
+.nav-fmt a:hover {
+  color: black;
+  background-color:silver;
+  box-shadow: 0 0 20px silver;   /* silver glow */
+    
+}
+hr{
+    border: none;
+    height: 3px;        
+    background-color: silver;
+    box-shadow: 0 0 10px silver, 0 0 20px silver; /* glow */
+}
+.explain-fmt{
+    font-family:times;
+    font-style:italic;
+    color:silver;
+    text-align:center;
+    font-size:15px;
+}
+.body-style{
+    flex-direction:column;
+    background-color:black;
+    color:silver;
+    font-family:times;
+    font-style:italic;
+    font-size:20px;
+}
+.service-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 25px;
+    justify-content: center;
+    gap: 25px;              
+    flex-wrap:wrap;
+    margin-top: 40px;
+    max-width:200px;
+    margin:0 auto;
+}
+
+.service-card {
+    border: 2px solid silver;
+    color: silver;             
+    padding: 20px;
+    width: 200px;
+    text-align: center;
+    border-radius: 8px;
+    transition: 0.3s ease;
+    background-color: black;
+}
+
+.service-card a {
+    text-decoration:none;
+    color: inherit;
+}
+
+
+.service-card:hover {
+  background-color: silver; 
+  color: black;           
+  box-shadow: 0 0 20px silver; 
+  cursor: pointer;
+}
+
+.benz-footer {
+  background: #1a1a1a;
+  color: #cfcfcf;
+  text-align: center;
+  padding: 25px 10px;
+  margin-top: auto;
+  border-top: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.footer-brand {
+  font-size: 1.4rem;
+  letter-spacing: 2px;
+  font-weight: 700;
+  color: silver;
+}
+
+.tagline {
+  margin: 6px 0 12px;
+  font-size: 0.9rem;
+  opacity: 0.8;
+}
+
+.benz-footer p {
+  margin: 4px 0;
+}
+.footer-nav a {
+  color: silver;
+  text-decoration: none;
+  font-size: 0.95rem;
+  margin-top: 8px;
+  display: inline-block;
+  transition: 0.2s ease;
+}
+
+.footer-nav a:hover {
+  color: silver;
+  text-shadow: 0 0 6px silver;
+}
