@@ -52,6 +52,7 @@ hr{
     flex-direction:column;
     background-color:black;
     color:silver;
+    text-align: center;
     font-family:times;
     font-style:italic;
     font-size:20px;
