@@ -131,3 +131,77 @@ hr{
   color: silver;
   text-shadow: 0 0 6px silver;
 }
+/* Form container */
+.form-box {
+  text-align: center;
+  background: #111;
+  padding: 40px;
+  width: 350px;
+  border-radius: 12px;
+  text-align: center;
+   box-shadow: 0 0 20px silver; 
+}
+
+/* Title */
+.form-box h2 {
+  margin-bottom: 20px;
+  font-size: 28px;
+  color: silver;
+  text-shadow: 0 0 10px silver;
+}
+
+/* Inputs */
+.form-box input {
+  width: 100%;
+  padding: 12px;
+  margin: 10px 0;
+  border: none;
+  border-radius: 6px;
+  background: #222;
+  color: white;
+  font-size: 16px;
+  outline: none;
+  transition: 0.3s;
+}
+
+.form-box input:focus {
+  box-shadow: 0 0 10px silver;
+}
+
+/* Button */
+.form-box button {
+  width: 100%;
+  padding: 12px;
+  margin-top: 15px;
+  background: silver;
+  border: none;
+  border-radius: 6px;
+  color: black;
+  font-size: 18px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.form-box button:hover {
+  background: silver;
+  box-shadow: 0 0 15px silver;
+}
+
+/* Link text */
+.form-box p {
+  margin-top: 15px;
+  font-size: 14px;
+}
+
+.form-box a {
+  color: silver;
+  text-decoration: none;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.form-box a:hover {
+  color: silver;
+  text-shadow: 0 0 10px silver;
+}
