@@ -1,13 +1,13 @@
-.header-style{
+.header-style{      /* all of this effects the title Benz Perfomance */
     font-size:30px;
     font-family:times;
     font-style:italic;
     color:silver;
-    text-align:center;
-    text-shadow: 0 0 10px silver;   /* yellow glow */
+    text-align:center;     /* how the title aligns on the page */
+    text-shadow: 0 0 10px silver;  /* adds the glow to the title */
     
 }
-.nav-fmt {
+.nav-fmt {          /* all of this effects the Navigation Bar */
   display: flex;
   gap: 45px;
   background-color: #2b2b2b;   /* dark grey */
@@ -58,10 +58,10 @@ hr{
     font-size:20px;
 }
 .service-container {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    /*display: grid;*/
+    /*grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); */
     gap: 25px;
-    justify-content: center;
+    /*justify-content: space;*/
     gap: 25px;              
     flex-wrap:wrap;
     margin-top: 40px;
@@ -69,6 +69,8 @@ hr{
     margin:0 auto;
 }
 
+
+/* service card is text formatting  */
 .service-card {
     border: 2px solid silver;
     color: silver;             
@@ -205,3 +207,19 @@ hr{
   color: silver;
   text-shadow: 0 0 10px silver;
 }
+
+.flex-main-style {
+    display: flex;
+}
+
+
+
+
+
+
+
+
+
+
+
+
